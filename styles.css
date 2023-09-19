@@ -8,6 +8,7 @@
 	width: 100%;
 }
 .btn{
+	cursor:pointer;
 	border-radius:3px;
 	width:80px;
 	padding: 12px;
