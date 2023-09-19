@@ -1,4 +1,3 @@
-//your JS code here. If required.
 let audioPlayer = document.getElementById('audioPlayer');
 let currentAudio = null;
 
@@ -7,10 +6,10 @@ function playAudio(soundFileName) {
         currentAudio.pause();
         currentAudio.currentTime = 0;
     }
-    
-    audioPlayer.src = `sounds/${sound}`;
-    audioPlayer.play();
+    audioPlayer.src = `sounds/${soundFileName}`;;
+    audioPlayer.play(); 
     currentAudio = audioPlayer;
+    
 }
 
 function stopAudio() {
